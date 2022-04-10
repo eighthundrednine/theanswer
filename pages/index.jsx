@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>One dot motha fucka</title>
+        <title>one dot motha fucka</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
