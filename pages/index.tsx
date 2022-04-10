@@ -58,8 +58,8 @@ const Home = () => {
         <Particles
           id="tsparticles"
           options={options as any}
-          init={() => {}}
-          loaded={() => {}}
+          init={(() => {}) as any}
+          loaded={(() => {}) as any}
         />
       </main>
     </div>
