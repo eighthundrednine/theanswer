@@ -5,7 +5,7 @@ import Particles from "react-tsparticles";
 import options from "./particle-config.json";
 
 const Home = () => {
-  function getRandomNumber(maxNonInclusive: any) {
+  function getRandomNumber(maxNonInclusive) {
     return Math.floor(Math.random() * maxNonInclusive);
   }
 
@@ -57,9 +57,9 @@ const Home = () => {
 
         <Particles
           id="tsparticles"
-          options={options as any}
-          init={(() => {}) as any}
-          loaded={(() => {}) as any}
+          options={options}
+          init={() => {}}
+          loaded={() => {}}
         />
       </main>
     </div>
