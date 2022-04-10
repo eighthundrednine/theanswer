@@ -57,7 +57,7 @@ const Home = () => {
 
         <Particles
           id="tsparticles"
-          options={options}
+          options={options as any}
           init={() => {}}
           loaded={() => {}}
         />
