@@ -14,7 +14,8 @@ const Home = () => {
       "One dot, mothafucka!",
       "Whatever you're asking, the answer is: I'm amazing.",
       "If I let you make me nervous, then we can't get schwifty.",
-      "Eek-barba-derkel? That's a pretty fucked up 'ooh-la-la.'"
+      "Eek-barba-derkel? That's a pretty fucked up 'ooh-la-la.'",
+      "TEST FIVE"
     ];
     return quotesList[getRandomNumber(quotesList.length)];
   }
