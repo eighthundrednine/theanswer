@@ -15,15 +15,26 @@ const Home = () => {
       "Whatever you're asking, the answer is: I'm amazing.",
       "If I let you make me nervous, then we can't get schwifty.",
       "Eek-barba-derkel? That's a pretty fucked up 'ooh-la-la.'",
-      "TEST FIVE",
-      "TEST SIX"
     ];
     return quotesList[getRandomNumber(quotesList.length)];
   }
 
   const [quote, setQuote] = useState("");
+
+    // Guarantees randomness of quote for each subsequent quote
+  function getNextQuote() {
+    let chosenQuote = getRandomQuote();
+    while(quote === chosenQuote){
+      chosenQuote = getRandomQuote();
+    }
+
+    return chosenQuote;
+  }
+
+
+  
   useEffect(() => {
-    setQuote(getRandomQuote());
+    setQuote(getNextQuote());
   }, []);
 
   return (
