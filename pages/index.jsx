@@ -15,6 +15,7 @@ const Home = () => {
       "Whatever you're asking, the answer is: I'm amazing.",
       "If I let you make me nervous, then we can't get schwifty.",
       "Eek-barba-derkel? That's a pretty fucked up 'ooh-la-la.'",
+      "If I die in a cage, I lose a bet."
     ];
     return quotesList[getRandomNumber(quotesList.length)];
   }
