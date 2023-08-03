@@ -59,7 +59,7 @@ const Home = () => {
           <p>{quote}</p>
           <button
             onClick={function () {
-              var newQuote = getRandomQuote();
+              var newQuote = getNextQuote();
               setQuote(newQuote);
             }}
           >
