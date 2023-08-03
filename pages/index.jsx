@@ -15,7 +15,8 @@ const Home = () => {
       "Whatever you're asking, the answer is: I'm amazing.",
       "If I let you make me nervous, then we can't get schwifty.",
       "Eek-barba-derkel? That's a pretty fucked up 'ooh-la-la.'",
-      "TEST FIVE"
+      "TEST FIVE",
+      "TEST SIX"
     ];
     return quotesList[getRandomNumber(quotesList.length)];
   }
@@ -28,7 +29,7 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>one dot mothaf*cka</title>
+        <title>whatever you&apos;re asking</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
