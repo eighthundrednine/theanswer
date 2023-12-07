@@ -11,11 +11,11 @@ const Home = () => {
 
   function getRandomQuote() {
     var quotesList = [
-      "One dot, mothafucka!",
-      "Whatever you're asking, the answer is: I'm amazing.",
-      "If I let you make me nervous, then we can't get schwifty.",
-      "Eek-barba-derkel? That's a pretty fucked up 'ooh-la-la.'",
-      "If I die in a cage, I lose a bet."
+      "One dot, mothafucka! - Rick",
+      "Whatever you're asking, the answer is: I'm amazing. - Rick",
+      "If I let you make me nervous, then we can't get schwifty. - Rick",
+      "Eek-barba-derkel? That's a pretty fucked up 'ooh-la-la.' - Rick",
+      "If I die in a cage, I lose a bet. - Rick"
     ];
     return quotesList[getRandomNumber(quotesList.length)];
   }
@@ -56,7 +56,7 @@ const Home = () => {
 
       <main className={styles.main}>
         <div className={styles.innerContainer}>
-          <h1>Rick Says:</h1>
+          <h1>QUOTES TO LETTER</h1>
           <p>{quote}</p>
           <button
             onClick={function () {
